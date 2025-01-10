@@ -1,0 +1,72 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.about-section img {
+    transition: transform 0.5s ease-in-out;
+}
+.about-section img:hover {
+    transform: scale(1.05);
+}
+
+/* about section */
+
+.about-section, .services-section, .featured-products-section, .testimonials-section, .newsletter-section {
+    padding: 60px 0;
+}
+.service-icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.testimonial img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+
+/* service section*/
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.hero-section p {
+    font-size: 1.5rem;
+}
+.service-card img {
+    height: 200px;
+    object-fit: cover;
+}
+.testimonial img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+
+/*contact */
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.hero-section p {
+    font-size: 1.5rem;
+}
+.contact-form-section, .contact-info-section {
+    padding: 60px 0;
+}
+.contact-info i {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+}
+.footer a {
+    color: white;
+    margin: 0 10px;
+}
